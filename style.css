@@ -428,10 +428,12 @@ h1 {
 body.home-page {
   min-height: 100vh;
   min-height: 100svh;
+  min-height: 100dvh;
   justify-content: center;
   padding-block: clamp(28px, 5svh, 48px);
   background: var(--page-bg);
   background-attachment: fixed;
+  background-color: #e5f2f4;
 }
 
 .home-page .home-shell {
