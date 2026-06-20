@@ -22,6 +22,7 @@ html {
   min-height: 100%;
   background: var(--page-bg);
   background-attachment: fixed;
+  background-color: #e5f2f4;
   scrollbar-color: rgba(76, 116, 138, 0.38) rgba(216, 233, 239, 0.28);
   scrollbar-width: thin;
   overflow-x: hidden;
@@ -30,9 +31,11 @@ html {
 body {
   min-height: 100vh;
   min-height: 100svh;
+  min-height: 100dvh;
   margin: 0;
   background: var(--page-bg);
   background-attachment: fixed;
+  background-color: #e5f2f4;
   color: var(--body);
   display: flex;
   flex-direction: column;
